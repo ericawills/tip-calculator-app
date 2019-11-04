@@ -1,31 +1,34 @@
 /* style.css */
-
 body {
-    background: #333 url(cafe.jpg) center center no-repeat;
-    background-size: cover;
-    color:  #756c83;;
+  background: #333 url(cafe.jpg) center center no-repeat;
+  background-size: cover;
+  color: #756c83;
+  ;
 }
 
 .container {
-    width: 400px;
-    height: 500px;
-    margin: 30px auto 0;
-    padding: 30px;
-    background-color: #fbfbfb;
-    box-shadow: 15px 15px 15px -8px #000;
-    border-radius: 8px;
-    text-align: center;
+  width: 400px;
+  height: 500px;
+  margin: 30px auto 0;
+  padding: 30px;
+  background-color: #fbfbfb;
+  box-shadow: 15px 15px 15px -8px #000;
+  border-radius: 8px;
+  text-align: center;
 }
 
 .title {
-    margin: 0 0 20px;
-    padding: 0 0 20px;
-    border-bottom: solid 1px #ddd;
-color: #b9e1dc;
-text-shadow: 2px 2px #756c83;
-font-weight: bold;
+  margin: 0 0 20px;
+  padding: 0 0 20px;
+  border-bottom: solid 1px #ddd;
+  color: #b9e1dc;
+  text-shadow: 2px 2px #756c83;
+  font-weight: bold;
 }
 
+.calc {
+  color: #f38181;
+}
 
 .btn {
   background-color: #b9e1dc;
@@ -34,11 +37,11 @@ font-weight: bold;
 }
 
 .btn:hover {
-    background-color: #f38181;
-    border-bottom-color: #756c83;
+  background-color: #f38181;
+  border-bottom-color: #756c83;
 }
 
-.tip {
+.tip-output {
   color: #f38181;
 }
 

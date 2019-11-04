@@ -5,7 +5,9 @@ const bodyParser = require("body-parser");
 const ejs = require("ejs");
 const app = express();
 
-app.use(bodyParser.urlencoded({extended: true}));
+app.use(bodyParser.urlencoded({
+  extended: true
+}));
 
 app.use(express.static("public"));
 
@@ -14,28 +16,30 @@ app.set('view engine', 'ejs');
 const output = [];
 
 
-app.get("/", function(req, res){
+app.get("/", function(req, res) {
 
-res.render("home", {tip: output});
+  res.render("home", {
+    tip: output
+  });
 
 });
 
 
-app.post("/", function(req, res){
+app.post("/", function(req, res) {
 
 
 
-var billAmount = req.body.billAmount;
-var percentages = req.body.percentages;
-var numPeople = req.body.totalPeople;
+  var billAmount = req.body.billAmount;
+  var percentages = req.body.percentages;
+  var numPeople = req.body.totalPeople;
 
-var tip = (billAmount * percentages) / numPeople;
-tip = Math.round(tip * 100) / 100;
-tip = tip.toFixed(2);
+  var tip = (billAmount * percentages) / numPeople;
+  tip = Math.round(tip * 100) / 100;
+  tip = tip.toFixed(2);
 
-output.push(tip);
+  output.push(tip);
 
-res.redirect("/");
+  res.redirect("/");
 
 
 
