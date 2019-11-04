@@ -13,14 +13,16 @@ app.use(express.static("public"));
 
 app.set('view engine', 'ejs');
 
-const output = [];
+var tip = "";
 
 
 app.get("/", function(req, res) {
 
   res.render("home", {
-    tip: output
+    tip: tip
   });
+
+
 
 });
 
@@ -33,14 +35,11 @@ app.post("/", function(req, res) {
   var percentages = req.body.percentages;
   var numPeople = req.body.totalPeople;
 
-  var tip = (billAmount * percentages) / numPeople;
+  tip = (billAmount * percentages) / numPeople;
   tip = Math.round(tip * 100) / 100;
   tip = tip.toFixed(2);
 
-  output.push(tip);
-
-  res.redirect("/");
-
+  res.render("home", {tip: tip});
 
 
 });
