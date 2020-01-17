@@ -22,14 +22,9 @@ app.get("/", function(req, res) {
     tip: tip
   });
 
-
-
 });
 
-
 app.post("/", function(req, res) {
-
-
 
   var billAmount = req.body.billAmount;
   var percentages = req.body.percentages;
@@ -41,12 +36,6 @@ app.post("/", function(req, res) {
 
   res.render("home", {tip: tip});
 
-
 });
-
-
-
-
-
 
 app.listen(process.env.PORT || 3000);
