@@ -1,6 +1,6 @@
 <h1 style="font-weight: bold;">Tip-Calc</h1>
 <h3>A simple tip calculator.</h3>
-<img src="weather-app-img.png">
+<img src="tip-calc-img.png">
 
 <h2 style="font-weight: bold;">Prerequisites</h2>
 <p><a href="https://nodejs.org/en/docs/">▶ </a>Node.JS with Express.JS</p>
