@@ -18,22 +18,22 @@ The TipCalc calculator app is a modern application written in Node.js. The app p
 
 - Install the latest version of <a href="https://nodejs.org/en/">Node.js</a>
 - Install <a href="https://docs.npmjs.com/downloading-and-installing-node-js-and-npm">NPM Dependencies</a> 
-  - Download NPM package manager on the command line
+  - Download NPM package manager on the command line:
   
   ```sh
   npm install npm -g
   ```
   
-  - Create a package JSON file
+  - Create a package JSON file:
 
   ```sh
   npm init
   ```
   
-  - Install Express and body parser modules
+  - Install Express and body parser modules:
   
    ```sh
-  npm init
+  npm i express body-parser 
   ```
     ### Why is this important?
     Express.js will be used for routing and body parser will allow you to parse your algorithm and return the necessary input data. Set     up should look something like this in your terminal:
@@ -43,7 +43,7 @@ The TipCalc calculator app is a modern application written in Node.js. The app p
     ```
 
 - Integrate <a href="https://getbootstrap.com/">Bootstrap</a> for CSS framework
-  - You can either install through the command line or simply copy/paste the readily available <a href-"https://getbootstrap.com/docs/4.4/getting-started/introduction/">Boostrap CDN</a> into your HTML <head></head> (preferred for faster bandwith and decreased load time)
+  - You can either install through the command line or simply copy/paste the readily available <a href="https://getbootstrap.com/docs/4.4/getting-started/introduction/">Boostrap CDN</a> into your HTML <head></head> (preferred for faster bandwith and decreased load time)
   
   
 ## Development
