@@ -35,8 +35,8 @@ The TipCalc calculator app is a modern application written in Node.js. The app p
    ```sh
   npm i express body-parser 
   ```
-    ^Why is this important?^
-    ^Express.js will be used for routing and body parser will allow you to parse your algorithm and return the necessary input data.^ 
+    <small>Why is this important?
+    Express.js will be used for routing and body parser will allow you to parse your algorithm and return the necessary input data. </small> 
 
 
 - Integrate <a href="https://getbootstrap.com/">Bootstrap</a> for CSS framework
