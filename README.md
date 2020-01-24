@@ -14,7 +14,7 @@ The TipCalc calculator app is a modern application written in Node.js. The app p
 * [X] Input memory capabilities.
 
 
-## Installation and Development setup 
+## Installation and Dependencies
 
 - Install the latest version of <a href="https://nodejs.org/en/">Node.js</a>
 - Install <a href="https://docs.npmjs.com/downloading-and-installing-node-js-and-npm">NPM Dependencies</a> 
@@ -42,12 +42,15 @@ The TipCalc calculator app is a modern application written in Node.js. The app p
     npm install express body-parser
     ```
 
-
+- Integrate <a href="https://getbootstrap.com/">Bootstrap</a> for CSS framework
+  - You can either install through the command line or simply copy/paste the readily available <a href-"https://getbootstrap.com/docs/4.4/getting-started/introduction/">Boostrap CDN</a> into your HTML <head></head> (preferred for faster bandwith and decreased load time)
+  
+  
 ## Development
 
-To develop the application you will need to first require the modules and construct an Express application inside your source code (i.e. app.js). 
+To develop the application you will need to first require the modules and construct an Express application inside your source code (i.e. app.js) -- 
 
-This app relies heavily on Express and body parser for development. Here is a basic template of server set up:
+This app relies heavily on Express and body parser for development. Here is a basic template of the server set up:
 
 ```javascript
 // require modules and create Express application
@@ -57,7 +60,7 @@ var app = express();
 
 app.use(bodyParser.urlEncoded({extended:true}));
 
-// application code goes here
+// application routing code goes here
 
 
 // create a connection to your local server
@@ -107,4 +110,4 @@ Please read the [contribution guidelines](contributing.md) first.
 <p>This project is licensed under the MIT License - see the LICENSE.md file for details</p>
 
 <h2 style="font-weight: bold;">Acknowledgments</h2>
-<p>Design inspiration from <a href="https://codepen.io/">Codepen.io</a></p>
+<p>Design inspiration from <a href="https://dribbble.com/">Dribbble</a></p>
