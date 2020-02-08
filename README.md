@@ -93,7 +93,7 @@ From there you can launch locally on your server from http://locallhost.com/3000
 Contributions are always welcome!
 Please read the [contribution guidelines](contributing.md) first.
 
-1. Fork it (<https://github.com/ewilliams12395/tip-calculator-app/fork>)
+1. Fork it (<https://github.com/ericawills/tip-calculator-app/fork>)
 2. Create your feature branch (`git checkout -b feature/fooBar`)
 3. Commit your changes (`git commit -m 'Add some fooBar'`)
 4. Push to the branch (`git push origin feature/fooBar`)
