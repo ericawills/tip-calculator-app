@@ -3,7 +3,7 @@
 
 The TipCalc calculator app is a modern application written in Node.js. The app provides standard calculations, as well as a set of customizable inputs to customize to your unique user experience.
 
-<img src="tip-calc-img.png">
+<a href="https://young-oasis-74205.herokuapp.com/"><img src="tip-calc-img.png"></a>
 
 
 ## Features
